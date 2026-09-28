@@ -60,25 +60,25 @@ The role's activation policy sets the conditions that must be met to elevate: a 
 
 Amara requests activation of User Administrator — choosing a duration (1 hour) and entering a business justification (*"Reset a locked user account – ticket #123"*), after passing MFA. Because approval is required, the request does not grant access immediately; it goes to **pending approval**.
 
-![Amara requests activation with duration and justification](3.png)
+![Amara requests activation with duration and justification](7.png)
 
 ### 4. Approval — a second human gates the elevation
 
 The designated approver (Kevin Tosin) reviews the request — who is asking, for which role, why, and for how long — and approves it. No one grants themselves admin.
 
-![Approver reviews and approves the activation request](4.png)
+![Approver reviews and approves the activation request](9.png)
 
 ### 5. Active, time-boxed access
 
 On approval, Amara's role becomes **Active** — but only for the requested window, with a visible expiry time. When it lapses, the role deactivates automatically and she returns to zero standing access.
 
-![Active, time-boxed User Administrator assignment with expiry](5.png)
+![Active, time-boxed User Administrator assignment with expiry](10.png)
 
 ### 6. Full audit trail
 
 Every step is written to the audit log — the eligible assignment, the policy change, the activation request, the approval, and the completed activation — each with the actor, timestamp, status, and the justification. This is the "every elevation is accountable" evidence an ISO 27001 or SOX access-control audit requires.
 
-![PIM audit log showing the full activation lifecycle](6.png)
+![PIM audit log showing the full activation lifecycle](11.png)
 
 ---
 
